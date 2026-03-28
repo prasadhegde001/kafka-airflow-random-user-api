@@ -14,7 +14,7 @@ Everything below is brought up with **Docker Compose** (same idea as the diagram
 flowchart TB
     classDef optional fill:#f3f4f6,stroke:#9ca3af,stroke-dasharray: 6 4,color:#4b5563
 
-    subgraph DOCKER["Docker Compose · this repo"]
+    subgraph DOCKER["Docker Compose"]
         direction LR
 
         API["API<br/>randomuser.me"]
