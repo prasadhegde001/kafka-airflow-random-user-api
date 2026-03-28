@@ -1,0 +1,9 @@
+# requirements.txt
+
+confluent-kafka[avro]>=2.13.2,<3.0.0
+requests>=2.33.0,<3.0.0
+httpx>=0.28.1,<0.29.0
+authlib>=1.6.9,<2.0.0
+cachetools>=7.0.5,<8.0.0
+attrs>=26.1.0,<27.0.0
+fastavro>=1.12.1,<2.0.0
