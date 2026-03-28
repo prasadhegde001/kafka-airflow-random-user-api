@@ -1,1 +1,81 @@
 
+{
+  "type": "record",
+  "name": "User",
+  "namespace": "com.randomuser",
+  "fields": [
+    {
+      "name": "id",
+      "type": {
+        "type"       : "string",
+        "logicalType": "uuid"
+      },
+      "doc": "Unique identifier for the user"
+    },
+    {
+      "name": "first_name",
+      "type": "string",
+      "doc": "First name of the user"
+    },
+    {
+      "name": "last_name",
+      "type": "string",
+      "doc": "Last name of the user"
+    },
+    {
+      "name": "gender",
+      "type": {
+        "type": "enum",
+        "name": "Gender",
+        "symbols": ["male", "female", "other"]
+      },
+      "doc": "Gender of the user"
+    },
+    {
+      "name": "address",
+      "type": "string",
+      "doc": "Full address of the user"
+    },
+    {
+      "name": "post_code",
+      "type": "string",
+      "doc": "Postal code of the user"
+    },
+    {
+      "name": "email",
+      "type": "string",
+      "doc": "Email address of the user"
+    },
+    {
+      "name": "username",
+      "type": "string",
+      "doc": "Username of the user"
+    },
+    {
+      "name": "dob",
+      "type": {
+        "type": "string",
+        "logicalType": "datetime"
+      },
+      "doc": "Date of birth in ISO 8601 format"
+    },
+    {
+      "name": "registered_date",
+      "type": {
+        "type": "string",
+        "logicalType": "datetime"
+      },
+      "doc": "Registration date in ISO 8601 format"
+    },
+    {
+      "name": "phone",
+      "type": "string",
+      "doc": "Phone number of the user"
+    },
+    {
+      "name": "picture",
+      "type": "string",
+      "doc": "URL to the user's profile picture"
+    }
+  ]
+}
