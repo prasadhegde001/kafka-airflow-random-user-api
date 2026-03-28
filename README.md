@@ -165,7 +165,7 @@ Use this when you only want to run the producer script on your machine against K
 docker compose up -d zookeeper kafka schema-registry
 ```
 
-(Include `kafka-ui` if you want the UI.)
+
 
 ### 2. Point config at localhost
 
